@@ -14,4 +14,4 @@ jobs:
     - name: Clone the submodules
       run: git reset --hard HEAD && git clean -xfd && git submodule sync --recursive && git submodule update --recursive --init
     - name: Build Application
-      run: make app rebuild=1 verbose=1
+      run: make ci
