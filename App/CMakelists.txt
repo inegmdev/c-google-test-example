@@ -1,0 +1,3 @@
+project(App)
+cmake_minimum_required(VERSION 3.13)
+add_subdirectory(Sources/App_SwE/App_SwC)
